@@ -1,9 +1,8 @@
 /* Contact */
 .background-img-contact h2 {
     position: absolute;
-    width: 229px;
+    width: 100%;
     height: 47px;
-    left: 549px;
     top: 324px;
     font-family: 'Roboto';
     font-style: normal;
@@ -11,21 +10,23 @@
     font-size: 40px;
     line-height: 47px;
     color: #000000;
+    text-align: center;
+    margin: auto;
+}
+.background-img-contact img {
+    width: 100%;
 }
 .container-form {
     display: block;
+    margin-top: -120px;
 }
 .container-form .form {
     border: 10px solid #F8AD9D;
-    height: 730px;
-    width: 701px;
-    margin: auto;
+    height: 300%;
+    width: 50%;
     background: #FFFFFF;
-
-    position: absolute;
-    /* top: 467px; */
-    left: 380px;
-    top: 458px;
+    position: sticky;
+    margin: auto;
 }
 
 .container-form .form h2 {
@@ -42,7 +43,7 @@
 
 form input, email {
     display: block;
-    width: 552px;
+    width: 80%;
     height: 48px;
     margin: 3% auto;
     background: #FFFFFF;
@@ -59,7 +60,7 @@ form input, email {
 
 form textarea {
     display: block;
-    width: 551px;
+    width: 80%;
     height: 210px;
     margin: auto;
     background: #FFFFFF;
@@ -77,7 +78,7 @@ form textarea {
 button {
     display: block;
     margin: 68px auto;
-    width: 552px;
+    width: 80%;
     height: 70px;
     left: 466px;
     top: 1038px;
@@ -95,6 +96,9 @@ button {
 }
 
 /* Questions and answers */
+.questions-answers {
+    width: 100%;
+}
 .container-questions-answers h2 {
     height: 28px;
     font-family: 'Roboto';
@@ -107,7 +111,6 @@ button {
 }
 
 .container-questions-answers .questions-answers .questions {
-    width: 1224px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -118,7 +121,6 @@ button {
 }
 
 .container-questions-answers .questions-answers .answers {
-    width: 1224px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -156,7 +158,7 @@ button {
 /* Footer */
 footer {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 400px;
     left: 0px;
     top: 1303px;
@@ -205,8 +207,8 @@ footer .img {
     display: flex;
     position: absolute;
     width: 66px;
-    left: 617px;
-    top: 118px;
+    left: 558px;
+    top: 131px;
     margin: 0 2%;
 }
 
@@ -216,7 +218,6 @@ footer .img a .two {
 
 a {
     text-decoration: none;
-    /* text-align: center; */
 }
 
 .footer-home {
@@ -519,7 +520,61 @@ a {
     .footer-home .social h5 {
         text-align: center;
     }
+    .container-questions-answers h2 {
+        font-size: x-large;
+    }
+    .container-questions-answers .questions-answers .questions {
+        font-size: medium;
+    }
 
+    .container-questions-answers .questions-answers .answers {
+        font-size: medium;
+    }
+    footer .img {
+        left: 132px;
+        top: 67px;
+    }
+    .questions_answers {
+        top: 853px;
+    }
+    .container-questions-answers .questions-answers .payment-method {
+        margin: unset;
+    }
+    .container-questions-answers .questions-answers .payment-methods .two {
+        left: 72px;
+    }
+    .container-questions-answers .questions-answers .payment-methods .three {
+        left: 144px;
+    }
+    .container-questions-answers .questions-answers .payment-methods .four {
+        left: 222px;
+    }
+    .container-questions-answers .questions-answers .payment-methods .five {
+        left: 296px;
+    }
+    .background-img-contact h2 {
+        top: 215px;
+        font-size: xx-large;
+    }
+    .container-form {
+        margin-top: -40px;
+    }
+    .container-form .form {
+        width: 70%;
+    }
+    .container-form .form h2 {
+        font-size: medium;
+        margin-bottom: unset;
+    }
+    .button-form button {
+        margin: 5% auto;
+    }
+    form textarea {
+        height: 137px;
+    }
+    .footer-contact {
+        top: 832px;
+    }
 }
 @media only screen and (min-width: 481px) and (max-width: 655px) {
     .paragraph p {
@@ -588,6 +643,22 @@ a {
     .footer-home .social h5 {
         text-align: center;
     }
+    footer .img {
+        left: 273px;
+        top: 100px;
+    }
+    .questions_answers {
+        top: 922px;
+    }
+    .background-img-contact h2 {
+        top: 231px;
+    }
+    .container-form {
+        margin-top: -68px;
+    }
+    .footer-contact {
+        top: 1117px;
+    }
 }
 
 @media only screen and (min-width: 656px) and (max-width: 804px) {
@@ -597,6 +668,22 @@ a {
     }
     .products {
         top: 3758px;
+    }
+    footer .img {
+        left: 273px;
+        top: 100px;
+    }
+    .questions_answers {
+        top: 871px;
+    }
+    .background-img-contact h2 {
+        top: 253px;
+    }
+    .container-form {
+        margin-top: -82px;
+    }
+    .footer-contact {
+        top: 1136px;
     }
 }
 
@@ -608,6 +695,15 @@ a {
     .products {
         top: 3758px;
     }
+    .questions_answers {
+        top: 908px;
+    }
+    .background-img-contact h2 {
+        top: 253px;
+    }
+    .footer-contact {
+        top: 1147px;
+    }
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1078px) {
@@ -617,5 +713,11 @@ a {
     }
     .products {
         top: 2975px;
+    }
+    .questions_answers {
+        top: 908px;
+    }
+    .background-img-contact h2 {
+        top: 253px;
     }
 }
