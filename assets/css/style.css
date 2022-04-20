@@ -216,12 +216,13 @@ footer .img a .two {
 
 a {
     text-decoration: none;
+    /* text-align: center; */
 }
 
 .footer-home {
     display: flex;
     height: 288px;
-    width: 100%;
+    width: 1235px;
     top: 3181px;
     background: #000000;
     color: #FFFFFF;
@@ -234,6 +235,7 @@ a {
     width: 33%;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .footer-home .navegation h5 {
@@ -242,6 +244,7 @@ a {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
+    text-align: center;
 }
 
 .footer-home .navegation a {
@@ -297,7 +300,7 @@ a {
 /* Products */
 .background-image img {
     width: 100%;
-    height: 764px;
+    height: 100%;
     border-radius: 5px;
 }
 
@@ -319,7 +322,6 @@ a {
 }
 
 .paragraph p {
-    width: 968px;
     height: 87px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -337,7 +339,7 @@ a {
     font-size: 40px;
     line-height: 47px;
     color: #000000;
-    text-align: center;
+    margin-left: 5%;
 }
 
 .offers .img-offers {
@@ -413,10 +415,8 @@ a {
     margin-bottom: 4%;
 }
 .sales .paragraph-one {
-    /* position: absolute; */
     width: 422px;
     height: 186px;
-    /* left: 106px;    */
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 400;
@@ -426,14 +426,196 @@ a {
 }
 
 .sales .paragraph-two {
-    /* position: absolute; */
     width: 380px;
     height: 84px;
-    /* left: 927px; */
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: #000000;
+}
+
+@media only screen and (max-width: 480px) {
+    hr {
+        margin-top: 50%;
+    }
+    .paragraph p {
+        margin: 3%;
+        font-size: medium;
+    }
+    .offers {
+        margin-top: 25%;
+        text-align: center;
+    }
+    .offers h2 {
+        font-size: xx-large;
+    }
+    .sales {
+        display: block;
+    }
+    .sales .paragraph-one {
+        width: 100%;
+    }
+    .sales .paragraph-one h4 {
+        text-align: center;
+        font-size: x-large;
+    }
+    .sales .paragraph-one p {
+        margin: 3%;
+        font-size: medium;
+    }
+    .sales .paragraph-two {
+        width: 100%;
+    }
+    .sales .paragraph-two h4 {
+        text-align: center;
+        font-size: x-large;
+    }
+    .sales .paragraph-two p {
+        margin: 3%;
+        font-size: medium;
+    }
+    .news h2 {
+        font-size: xx-large;
+    }
+    .news a {
+        font-size: medium;
+    }
+    .instagram a {
+        text-align: center;
+    }
+    .footer-home {
+        top: 5113px;
+        display: block;
+        height: 612px;
+        width: 363px;
+    }
+    .products {
+        top: 6009px;
+    }
+    .footer-home .navegation {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-home .navegation h5 {
+        text-align: center;
+    }
+    .footer-home .contacts {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-home .contacts h5 {
+        margin-left: 0;
+    }
+    .footer-home .contacts p {
+        justify-content: center;
+    }
+    .footer-home .social {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-home .social h5 {
+        text-align: center;
+    }
+
+}
+@media only screen and (min-width: 481px) and (max-width: 655px) {
+    .paragraph p {
+        margin: 3%;
+    }
+    .offers {
+        margin-top: 25%;
+        text-align: center;
+    }
+    .sales {
+        display: block;
+    }
+    .sales .paragraph-one {
+        width: 100%;
+    }
+    .sales .paragraph-one h4 {
+        text-align: center;
+        font-size: x-large;
+    }
+    .sales .paragraph-one p {
+        margin: 3%;
+        font-size: medium;
+    }
+    .sales .paragraph-two {
+        width: 100%;
+    }
+    .sales .paragraph-two h4 {
+        text-align: center;
+        font-size: x-large;
+    }
+    .sales .paragraph-two p {
+        margin: 3%;
+        font-size: medium;
+    }
+    .footer-home {
+        top: 5000px;
+        display: block;
+        height: 612px;
+        width: 90%; 
+    }
+    .products {
+        top: 6220px;
+    }
+    .footer-home .navegation {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-home .navegation h5 {
+        text-align: center;
+    }
+    .footer-home .contacts {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-home .contacts h5 {
+        margin-left: 0;
+    }
+    .footer-home .contacts p {
+        justify-content: center;
+    }
+    .footer-home .social {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-home .social h5 {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 656px) and (max-width: 804px) {
+    .footer-home {
+        top: 3243px;
+        width: 90%; 
+    }
+    .products {
+        top: 3758px;
+    }
+}
+
+@media only screen and (min-width: 805px) and (max-width: 1000px) {
+    .footer-home {
+        top: 3427px;
+        width: 90%; 
+    }
+    .products {
+        top: 3758px;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1078px) {
+    .footer-home {
+        top: 2853px;
+        width: 90%; 
+    }
+    .products {
+        top: 2975px;
+    }
 }
