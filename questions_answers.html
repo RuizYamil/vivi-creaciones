@@ -1,34 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
     <!-- Style -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
     <title>Preguntas Frecuentes</title>
 </head>
+
 <body>
+    <header id="inicio">
+        <div class="container-header">
+            <a class="enlace-header" href="https://api.whatsapp.com/send?phone=93424219500" target="_blank">Descubrí tu
+                proximo mate. Escribinos haciendo un click ACÁ</a>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <div class="container-logo"><span>V</span>iviana <span>C</span>reaciones</div>
+
+                <button class="navbar-toggler navbar-light btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navbar-dark"></span>
+                </button>
+
+                <div class="collapse navbar-collapse d-xl-flex justify-content-xl-end container-navbar " id="navbarNavAltMarkup">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 p-1">
+                        <li class="nav-item me-5">
+                            <a class="nav-link" aria-current="page" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item dropdown me-5">
+                            <a class="nav-link dropdown-toggle " href="products.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                PRODUCTOS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="products-mates.html">MATES</a></li>
+                                <li><a class="dropdown-item" href="products-set-matero.html">SET MATERO</a></li>
+                                <li><a class="dropdown-item" href="products-macetas.html">MACETAS</a></li>
+                                <li><a class="dropdown-item" href="products-cuadros.html">CUADROS</a></li>
+                                <li><a class="dropdown-item" href="products-sales.html">SALE</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link" href="contact.html">CONTACTO</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link" href="questions_answers.html">PREGUNTAS FRECUENTES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
     <div class="container-questions-answers">
+        <p>Inicio / Preguntas Frecuentes</p>
         <h2>PREGUNTAS FRECUENTES</h2>
         <div class="questions-answers">
             <p class="questions">¿Qué formas de pago puedo aprovechar para realizar mi compra?</p>
             <p class="answers">Disponemos de los siguientes medios de pago:</p>
             <div class="payment-methods">
-                <img src="assets/images/questions_answers/visa.png" alt="visa">
-                <img src="assets/images/questions_answers/mastercard.png" alt="master card" class="two">
-                <img src="assets/images/questions_answers/banelco.png" alt="banelco" class="three">
-                <img src="assets/images/questions_answers/rapipago.png" alt="rapipago" class="four">
-                <img src="assets/images/questions_answers/pago-facil.png" alt="pago facil" class="five">
+                <img src="assets/images/questions_answers/visa.png" alt="visa" class="img">
+                <img src="assets/images/questions_answers/mastercard.png" alt="master card" class="img">
+                <img src="assets/images/questions_answers/banelco.png" alt="banelco" class="img">
+                <img src="assets/images/questions_answers/rapipago.png" alt="rapipago" class="img">
+                <img src="assets/images/questions_answers/pago-facil.png" alt="pago facil" class="img">
+                <img src="assets/images/questions_answers/mercadopago.png" alt="mercadopago" class="img">
+                <img src="assets/images/questions_answers/naranja.png" alt="naranja" class="img">
             </div>
-            <p class="answers">Los costos del delivery quedan a cargo del cliente, siendo este quien los deba abonar en todos los casos.</p>
+            <p class="answers">Los costos del delivery quedan a cargo del cliente, siendo este quien los deba abonar en
+                todos los casos.</p>
             <p class="questions">¿Dónde puedo recibir mi pedido? </p>
             <p class="answers">Realizamos envíos a todo el país.</p>
             <p class="questions">¿Cuánto tarda en llegar el pedido?</p>
             <p class="answers">El tiempo de entrega dependerá del tipo de envío seleccionado.
-            En general la demora se encuentra entre 3 y 7 días hábiles luego de acreditado el pago.</p>
+                En general la demora se encuentra entre 3 y 7 días hábiles luego de acreditado el pago.</p>
             <p class="questions">¿Cuál es el plazo para realizar un cambio? </p>
             <p class="answers">Puedes solicitar un cambio hasta .... luego de realizada la compra. </p>
             <p class="questions">¿Qué debo hacer si el producto no llega en buen estado? </p>
@@ -39,24 +95,28 @@
         <div class="info">
             <h3>INFO</h3>
             <a href="index.html">
-                <p>Home</p>    
+                <p>Home</p>
             </a>
             <a href="products.html">
-                <p>Productos</p>    
+                <p>Productos</p>
             </a>
             <a href="contact.html">
                 <p>Contacto</p>
             </a>
         </div>
         <div class="img">
-            <a href="https://www.instagram.com/vivi_creaciones/">
+            <a href="https://www.instagram.com/vivi_creacioness/">
                 <img src="assets/images/instagram_circle.png" alt="instagram" class="one">
             </a>
-            <a href="">
+            <a href="https://www.facebook.com/Vivi_Creacioness2">
                 <img src="assets/images/facebook_circle.png" alt="facebook" class="two">
             </a>
+            <p class="fanpage">Visit&aacute; nuestra fanpage!</p>
         </div>
-        <p class="fanpage">Visit&aacute; nuestra fanpage!</p>
     </footer>
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+
 </html>
