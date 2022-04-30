@@ -334,7 +334,6 @@ a {
 /* Products */
 .background-image img {
     width: 100%;
-    height: 80vh;
     border-radius: 5px;
 }
 
@@ -642,7 +641,7 @@ a {
         left: 296px;
     }
     .background-img-contact h2 {
-        top: 276px;
+        top: 128px;
         font-size: xx-large;
     }
     .container-form {
@@ -771,7 +770,7 @@ a {
         top: 922px;
     }
     .background-img-contact h2 {
-        top: 302px;
+        top: 143px;
     }
     .container-form {
         margin-top: -68px;
@@ -806,7 +805,7 @@ a {
         top: 871px;
     }
     .background-img-contact h2 {
-        top: 315px;
+        top: 162px;
     }
     .container-form {
         margin-top: -82px;
@@ -849,7 +848,7 @@ a {
         top: 908px;
     }
     .background-img-contact h2 {
-        top: 316px;
+        top: 156px;
     }
     .footer-contact {
         top: 1147px;
