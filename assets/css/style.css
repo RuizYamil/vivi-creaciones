@@ -397,6 +397,10 @@ a {
     margin-top: 0.5em;
 }
 
+.offers .img-offers .paragraph {
+    max-width: fit-content;
+}
+
 .news h2 {
     font-family: 'Roboto';
     font-style: normal;
@@ -452,12 +456,12 @@ a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
     text-decoration-line: underline;
 }
 .instagram a p span {
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .sales {
@@ -472,7 +476,7 @@ a {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28px;
     color: #000000;
     border-right: 1px solid black;
@@ -485,7 +489,7 @@ a {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28px;
     color: #000000;
     border-right: 1px solid black;
@@ -498,7 +502,7 @@ a {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28px;
     color: #000000;
     border-right: 1px solid black;
